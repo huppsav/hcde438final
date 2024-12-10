@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.App-header {
+  padding: 30px;
+  gap: 20px;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items: center;
+  border-bottom: 5px rgb(255, 133, 77) solid;
+  background-color: rgb(255, 133, 77);
+}
+
+#image {
+  height: 150px;
+  width: auto;
+}
+
+textarea {
+  width: 40%;
+  height: 75%;
+  margin-left: 30px;
+}
+
+.searched-books { 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px
+}
+
+#wishlist {
+  height: 50vh;
+  text-align: center;
+}
+
+.books {
+  border: 10px rgb(255, 166, 196) solid;
+  background-color:  rgb(255, 166, 196);
+  text-align: center;
+  height: 35vh;
+  width: 125px;
+  gap: 10px;
+}
+
+h1, h2, h3 {
+  font-size: 20pt;
+  color: rgb(102, 46, 21);
+  text-align: center;
+}
+
