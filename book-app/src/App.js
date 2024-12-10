@@ -94,7 +94,6 @@ function Home() {
     } else {
       console.log("please select genre")
     }
-    
   }
 
   async function addToWishlist(book) {
