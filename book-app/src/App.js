@@ -138,7 +138,7 @@ function Home() {
       </header>
       <main>
         <h2>Recommended Books</h2>
-        <div className=" container searched-books">
+        <div className="searched-books">
           {
             books.map((book) => (
             <BookComponent 
