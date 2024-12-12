@@ -134,11 +134,11 @@ function Home() {
           <option value="Fiction">Fiction</option>
         </select>
         <button onClick={searchForBooks}>search</button>
-        <button onClick={signUserOut}>Sign Out</button>
+        <button onClick={signUserOut} id="sign-out-button">Sign Out</button>
       </header>
       <main>
         <h2>Recommended Books</h2>
-        <div className="searched-books">
+        <div className=" container searched-books">
           {
             books.map((book) => (
             <BookComponent 
@@ -150,10 +150,8 @@ function Home() {
                     addToList={() => addToWishlist(book)}/>
           ))}
         </div>
-        <div id="wishlist">
-          <h3>Wishlist</h3>
+        <h3>Wishlist</h3>
           <WishlistComponent books={wishlist}/>
-        </div>
       </main>
     </div>
   );
